@@ -28,10 +28,10 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center 
     bg-no-repeat px-6 text-white
-    bg-[url(../../public/images/Heroimg.jpg)]
+    bg-[url('/images/Heroimg.png')]
     ">
 
-            <div className="absolute inset-0 bg-black/30 z-0"></div>
+            <div className="absolute inset-0 bg-black/50 z-0"></div>
 
 
             <div className="relative z-10 text-center max-w-3xl space-y-6">
