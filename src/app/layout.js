@@ -1,6 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans } from "next/font/google";
 import "./globals.css";
-
+import "./animation.css"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -10,6 +10,12 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const notoSans = Noto_Sans({
+  subsets: ['latin'],
+  weight: ['400','600', '700'], // adjust weights as needed
+  display: 'swap',
+  variable: '--font-noto',
+}); 
 
 export const metadata = {
   title: "Create Next App",
@@ -18,9 +24,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className = {notoSans.className}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      className="vsc-initialized"
       >
         {children}
       </body>
