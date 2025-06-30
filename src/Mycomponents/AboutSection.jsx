@@ -5,7 +5,7 @@ export default function AboutSection() {
     return (
         <section className="bg-[#B5DBDF] px-2 md:py-32 md:px-24 overflow-hidden" id="about">
             <div className="max-w-6xl  flex flex-col md:flex-row 
-            items-center  gap-10 ">
+            items-center gap-10 xl:mx-auto">
                 
                 <div className="flex flex-col basis-1/2 items-end">
                 <div className="rounded-2xl w-full max-h-[90vh] aspect-auto border-8 border-white
