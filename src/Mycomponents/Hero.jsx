@@ -26,7 +26,7 @@ export default function Hero() {
 
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center 
+        <section className="relative min-h-screen flex items-center m-0 justify-center bg-cover bg-center 
     bg-no-repeat px-6 text-white
     bg-[url('/images/Heroimg.png')]
     ">

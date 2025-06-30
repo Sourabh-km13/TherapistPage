@@ -1,7 +1,7 @@
 export default function ContactForm() {
     return (
         <div className="flex-1">
-            <div className="w-3/4 bg-[#F5F7FA] p-8 rounded-md shadow border border-gray-300 outline-1">
+            <div className="w-full md:w-3/4  bg-[#F5F7FA] p-8 rounded-md shadow border border-gray-300 outline-1">
                 <h3 className="text-xl font-bold mb-2 text-center">Get In Touch</h3>
                 <p className="text-center mb-6 text-md">
                     Simply fill out the brief fields below and Ellie will be in touch with you soon, usually within one business day. This form is safe, private, and completely free.

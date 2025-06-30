@@ -10,12 +10,12 @@ export default function Card({
 }) {
     return (
         <div className="max-w-sm w-full bg-[#c7e7ef] rounded-lg border border-gray-400 p-8
-        flex flex-col items-center text-center h-full
+        flex flex-col items-center text-center overflow-hidden
         hover:shadow-lg transition-shadow duration-200
          ">
             <div className='hover:translate-x-1.5 transition-transform duration-200'>
 
-                <div className="w-full relative mb-4 rounded-md h-48">
+                <div className="w-full relative mb-4 rounded-md h-48  overflow-hidden">
                     <Image
                         src={imageSrc}
                         alt={title}
@@ -24,14 +24,16 @@ export default function Card({
                     />
                 </div>
 
-                <h3 className="text-xl font-bold mb-2 ">
+                <div>
+                    <h3 className="text-xl font-bold mb-2 ">
                     {title}
-                </h3>
+                    </h3>
 
-                <p className="text-md w-full mb-4 break-words">
+                    <p className="text-md w-full mb-4 break-words">
 
-                    {description}
-                </p>
+                        {description}
+                    </p>
+                </div>
             </div>
 
 

@@ -30,11 +30,11 @@ export default function CardContainer() {
         <section 
         className='relative px-30 py-24 text-[#1E4145] '
         >
-            <p className='text-6xl font-bold mb-10'>
+            <p className='text-6xl text-center lg:text-left font-bold mb-10'>
 
                 How I Help
             </p>
-            <div className='flex flex-row h-max justify-between'>
+            <div className='flex flex-col items-center lg:flex-row  gap-10 justify-between'>
                 {
                     data.map(item=>{
                         return(

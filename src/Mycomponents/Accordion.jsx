@@ -29,7 +29,7 @@ export default function Accordion() {
   };
 
   return (
-    <section className="bg-[#c7e7ef] text-[#1E4145] px-6 py-12 w-full mx-auto">
+    <section className="bg-[#c7e7ef] text-[#1E4145] px-12 py-12 w-full mx-auto">
       <h2 className="text-5xl font-bold  mb-8">
         Frequently Asked Questions
       </h2>
